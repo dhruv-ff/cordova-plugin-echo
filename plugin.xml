@@ -30,10 +30,10 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Echo">
-                <param name="android-package" value="Echo" />
+                <param name="android-package" value="nl.xservices.plugins.Echo" />
             </feature>
         </config-file>
 
-        <source-file src="src/android/Echo.java" target-dir="src/android"/>
+        <source-file src="src/android/nl/xservices/plugins/Echo.java" target-dir="src/nl/xservices/plugins"/>
     </platform>
 </plugin>
