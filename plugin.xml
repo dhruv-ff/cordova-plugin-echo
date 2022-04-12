@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-echo-x" version="0.1.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>Cordova Echo</name>
+
+    <description>This plugin For Testing.</description>
+
+    <author>Dhruv Naik</author>
+
+    <license>MIT</license>
+
+    <keywords>Testing</keywords>
+
+    <repo></repo>
+
+    <issue></issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+
+    <js-module src="www/Echo.js" name="Echo">
+        <clobbers target="window.echo" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Echo">
+                <param name="android-package" value="Echo" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Echo.java" target-dir="src/android"/>
+    </platform>
+</plugin>
