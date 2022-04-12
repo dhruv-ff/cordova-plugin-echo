@@ -13,7 +13,14 @@
         "url": "git+https://github.com/dhruv-ff/cordova-plugin-echo.git"
     },
     "keywords": [
-        "Echo"
+        "Echo",
+        "Test",
+        "ecosystem:cordova",
+        "cordova-ios",
+        "cordova-android",
+        "cordova-wp8",
+        "cordova-windows",
+        "cordova-blackberry10"
     ],
     "engines": [
         {
