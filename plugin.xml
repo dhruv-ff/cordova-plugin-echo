@@ -22,7 +22,7 @@
     </engines>
 
     <js-module src="www/Echo.js" name="Echo">
-        <clobbers target="window.echo" />
+        <clobbers target="window.plugins.echo" />
     </js-module>
 
     <!-- android -->
