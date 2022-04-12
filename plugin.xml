@@ -5,7 +5,7 @@
 
     <name>Cordova Echo</name>
 
-    <description>This plugin For Testing.</description>
+    <description>This plugin For Testing</description>
 
     <author>Dhruv Naik</author>
 
@@ -13,9 +13,9 @@
 
     <keywords>Testing</keywords>
 
-    <repo></repo>
+    <repo>https://github.com/dhruv-ff/cordova-plugin-echo</repo>
 
-    <issue></issue>
+    <issue>https://github.com/dhruv-ff/cordova-plugin-echo/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.0.0"/>

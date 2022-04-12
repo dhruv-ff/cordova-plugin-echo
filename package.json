@@ -1,0 +1,30 @@
+{
+    "name": "cordova-plugin-echo-x",
+    "version": "0.1.0",
+    "description": "This plugin For Testing",
+    "cordova": {
+        "id": "cordova-plugin-echo-x",
+        "platforms": [
+            "android"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dhruv-ff/cordova-plugin-echo.git"
+    },
+    "keywords": [
+        "Echo"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "author": "Dhruv Naik",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dhruv-ff/cordova-plugin-echo/issues"
+    },
+    "homepage": "https://github.com/dhruv-ff/cordova-plugin-echo"
+}
